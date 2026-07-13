@@ -1,0 +1,6 @@
+first_Name=input("Enter the first name:")
+last_Name=input("Enter the last name:")
+birth_year=int(input("Enter the birth year:"))
+first_Name=first_Name.replace(" ","").lower()
+last_Name=last_Name.replace(" ","").lower()
+print(first_Name+last_Name+str(birth_year)+"@gmail.com")
