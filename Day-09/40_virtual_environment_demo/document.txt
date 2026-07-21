@@ -1,0 +1,23 @@
+# 1️⃣ Create a new virtual environment
+python -m venv sample_venv
+# → This makes a folder named 'sample_venv' with Include, Lib, Scripts, and pyvenv.cfg
+
+# 2️⃣ Activate the environment (PowerShell in VS Code)
+.\sample_venv\Scripts\Activate.ps1
+# → Your prompt changes to (sample_venv), meaning the venv is active
+
+# 3️⃣ Install the 'requests' package inside the environment
+pip install requests
+# → Installs requests only into sample_venv, not globally
+
+# 4️⃣ Verify installation
+pip list
+# → Shows installed packages (pip, setuptools, wheel, requests)
+
+# 5️⃣ Generate requirements.txt
+pip freeze > requirements.txt
+# → Saves exact package versions into requirements.txt for future recreation
+
+# 6️⃣ Deactivate the environment
+deactivate
+# → Removes (sample_venv) prefix, returns you to normal PowerShell

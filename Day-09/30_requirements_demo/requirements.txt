@@ -1,0 +1,25 @@
+# requirements.txt (Sample)
+
+numpy
+pandas
+matplotlib
+scikit-learn
+
+---
+
+# Installation Guide
+
+To install all the packages listed in requirements.txt, use the following command:
+
+pip install -r requirements.txt
+
+This command tells pip to read the requirements.txt file and install each package listed inside it.
+
+---
+
+# Notes
+- You can add more packages to requirements.txt as needed.
+- To freeze your current environment’s dependencies into a requirements.txt file, use:
+  pip freeze > requirements.txt
+- To recreate the same environment elsewhere, simply run:
+  pip install -r requirements.txt

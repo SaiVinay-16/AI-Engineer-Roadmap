@@ -1,0 +1,3 @@
+# requirements.txt
+# No external libraries needed for this simple calculator
+# But you can add packages here if needed later
